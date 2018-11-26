@@ -1,0 +1,26 @@
+{
+  "title": "Engineering survey",
+  "open": true,
+  "questions": {
+    "0000": {
+      "title": "How would you rate the team QUALITY ?",
+      "icon": "medkit"
+    },
+    "1111": {
+      "title": "How would you rate the team MASTERY ?",
+      "icon": "trophy"
+    },
+    "2222": {
+      "title": "How would you rate the team SPEED ?",
+      "icon": "bolt"
+    },
+    "3333": {
+      "title": "How would you rate the team OWNERSHIP ?",
+      "icon": "home"
+    },
+    "4444": {
+      "title": "How would you rate the team COLLABORATION ?",
+      "icon": "comment"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "surveys": {
+      ".read": true,
+      ".write": false,
+      "$surveyID": {
+        "responses": {
+          "$uid": {
+            ".write": "$uid === auth.uid && data.parent().parent().child('open').val() === true"
+          }
+        }
+      }
+    }
+  }
+}

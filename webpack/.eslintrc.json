@@ -1,0 +1,7 @@
+{
+    "rules": {
+      "import/no-commonjs": "off",
+      "import/unambiguous": "off",
+      "id-match": "off"
+    }
+}
